@@ -18,10 +18,10 @@ Grab the right file for your computer from the **[Latest Release](https://github
 
 | Your computer | Download |
 |---|---|
-| **Windows 10/11** | `EBHunter v*.exe` — *portable, just double-click* |
-| **Mac (Apple Silicon — M1/M2/M3/M4)** | `EBHunter v*_aarch64.app.zip` |
-| **Mac (Intel)** | `EBHunter v*_x64.app.zip` |
-| **Linux (64-bit x86)** | `EBHunter v*_amd64.AppImage` |
+| **Windows 10/11** | `EBHunter.exe` — *portable, just double-click* |
+| **Mac (Apple Silicon — M1/M2/M3/M4)** | `EBHunter_aarch64.app.zip` |
+| **Mac (Intel)** | `EBHunter_x64.app.zip` |
+| **Linux (64-bit x86)** | `EBHunter_amd64.AppImage` |
 
 *Not sure which Mac you have? Apple menu > About This Mac. "Chip: Apple M1/M2/M3/M4" = Apple Silicon. "Processor: Intel" = Intel.*
 
