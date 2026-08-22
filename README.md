@@ -22,6 +22,7 @@ Grab the right file for your computer from the **[Latest Release](https://github
 | **Mac (Apple Silicon — M1/M2/M3/M4)** | `EBHunter_aarch64.app.zip` |
 | **Mac (Intel)** | `EBHunter_x64.app.zip` |
 | **Linux (64-bit x86)** | `EBHunter_amd64.AppImage` |
+| **Android** | `EBHunter.apk` — *sideload on any Android phone* |
 
 *Not sure which Mac you have? Apple menu > About This Mac. "Chip: Apple M1/M2/M3/M4" = Apple Silicon. "Processor: Intel" = Intel.*
 
