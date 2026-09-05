@@ -1,5 +1,30 @@
 # Changelog
 
+## [v0.2.2] - 2026-09-05
+
+### Fixed
+- Removed "View Product" button that linked to external website
+- Sort by price now uses effective sale price instead of original price
+- Ctrl+Shift+C no longer blocked — text can be copied from modal
+- Right-click context menu now works on selectable text (title, description)
+- Cache directory now uses platform-appropriate path on macOS and Linux
+- Animation delay no longer grows unbounded for large result sets (capped at 0.6s)
+- localStorage reads wrapped in try-catch to prevent crashes on corrupt data
+- Cleaned up dead code (unused productUrl references)
+
+### Improved
+- Price tracking batched into single write per render instead of per-card
+- Price history pruned at 1000 entries to prevent unbounded localStorage growth
+- Pagination added — games and deals load 60 at a time with "Load More" button
+- Loading spinner shown during initial catalog fetch
+- Broken images now show a gamepad fallback icon instead of empty boxes
+
+## [v0.2.1] - 2026-08-26
+
+### Security
+- Catalog data encrypted at rest with AES-256-GCM; CDN serves ciphertext only
+- CDN fallback URL corrected to match actual R2 object key
+
 ## [v0.2.0] - 2026-08-22
 
 ### Added
